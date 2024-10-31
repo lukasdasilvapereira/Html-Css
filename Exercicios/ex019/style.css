@@ -1,0 +1,27 @@
+/* 
+ id é representado no css com # 
+ class é representado com .
+
+ */
+body {
+    background-color: #A41623;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: #F85E00;
+    
+}
+
+h2 {
+    color: #FFD29D;
+}
+
+#principal {
+    text-align: center;
+    background-color: transparent;
+}
+
+.básico {
+    color: white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de caixas</title>
+  <style>
+    h1 {
+      background-color: aqua;
+      color: white;
+      height: 300px;
+      width: 300px;
+      border: 1px solid darkblue;
+
+      margin: auto;
+
+      padding: 10px 20px;
+    }
+
+    a {
+      border: 2px solid black;
+      outline: 5px solid salmon;
+    }
+    p {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="ex">Exemplo de caixa box-level</h1>
+  <p>Paragrafos também são box-leve <a href="#">link são exemplos de inline-level</a> vamos ver como isso funciona</p>
+</body>
+<script>
+  var n = document.getElementById('ex')
+  n.addEventListener('click', clicar)
+  n.addEventListener('mouseout', clicou)
+  function clicar() {
+    n.innerHTML = 'alouuuuu'
+  }
+
+  function clicou() {
+    n.innerHTML = 'voltei'
+  }
+</script>
+
+</html>

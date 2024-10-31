@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-left: 870px;
+    color: white;
+}
+
+.html {
+
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 850px;
+    margin-top: 20px;
+}
+
+.hardware {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 850px;
+}
+
+.python {
+
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 1050px;
+    
+}
+
+.js {
+
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 1050px;
+    margin-top: -225px;
+    
+    
+}
+
+body {
+    background-color: gray; /* Substitua pelo código de cor desejado */
+    height: 100%;
+    overflow: hidden;
+}
+
+.titulojava {
+
+    display: flex;
+    align-items: center;
+    margin-left: 780px;
+    color: white;
+}
+
+.videojs {
+
+    display: flex;
+    align-items: center;
+    margin-left: 680px;
+    width: 500px;
+}
+
+.cursojs {
+
+    display: flex;
+    align-items: center;
+    margin-left: 930px;
+    margin-top: 60px;
+}
+
+.completo {
+    
+    display: flex;
+    align-items: center;
+    margin-left: 880px;
+    margin-top: 25px;
+    color: blue;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    margin-left: 680px;
+    width: 500px;
+}
+
+.corpo{
+    background-color: gray;
+    height: 100%;
+}
+
+.completo2 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 880px;
+    margin-top: 25px;
+    color: blue;
+}
+
+.voltar {
+
+    display: flex;
+    align-items: center;
+    margin-left: 930px;
+    margin-top: 60px;
+}
+
+.titulohtml {
+
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+    color: white;
+}
+
+.corpo2 {
+
+    background-color: gray;
+    height: 100%;
+}
+
+.titulohdr {
+
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+    color: white;
+}
+
+.videohdr {
+
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    width: 500px;
+}
+
+.cursohdr{
+
+    display: flex;
+    align-items: center;
+    margin-left: 880px;
+    margin-top: 25px;
+    color: blue;
+}
+
+.voltar2 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 930px;
+    margin-top: 60px;
+}
+
+.titulopython {
+
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+    color: white;
+}
+
+.voltar3 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 930px;
+    margin-top: 60px;
+}
+
+.videopython {
+
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    width: 500px;
+}
+
+.completo3 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 880px;
+    margin-top: 25px;
+    color: blue;
+}
