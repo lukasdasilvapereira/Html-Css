@@ -22,7 +22,7 @@ header {
 header h1 {
     color: white;
     font-family: var(--fonte01);
-    font-size: 39px;
+    font-size: 4em;
     font-variant: small-caps;
 }
 a {
@@ -41,7 +41,7 @@ header p {
 
 main section p {
     font-family: var(--fonte);
-    font-size: 18px;
+    font-size: 1.5em;
     line-height: 2em;
     margin-bottom: 20px;
     margin-top: 18px;
@@ -55,12 +55,28 @@ section {
 
 section.imagem {
     background-color: rgb(53, 50, 50);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.521);
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(0, 0, 0, 0.507);
     color: white;
     width: 400px;
+    text-shadow: 1px 2px 0px black;
+    text-align: center;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
 }
 
 footer {
