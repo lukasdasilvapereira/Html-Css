@@ -11,18 +11,29 @@
         border-collapse: collapse;
         font-family: Arial, Helvetica, sans-serif;
     }
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        background-color: lightgreen;
+        padding: 10px;
+
+    }
 
     th, td {
         border: 1px solid black;
         padding: 10px;
     }
     thead, tfoot {
-        background-color: gray;
+        background-color: rgba(0, 0, 0, 0.795);
         color: white;
     }
 
     .num {
         text-align: right;
+    }
+
+    tbody > tr:nth-child(even) {
+        background-color: lightgrey;
     }
 </style>
 <body>
@@ -33,10 +44,11 @@
                 TBODY
                     TFOOT-->
     <table>
+        <caption>Total de Unidades Federativas no Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -150,7 +162,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">212 583 720</td>
             </tr>
         </tfoot>
