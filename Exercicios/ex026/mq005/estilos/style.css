@@ -20,8 +20,22 @@ h1 {
     padding: 20px;
 }
 
+span#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(51, 48, 48);
+    color: white;
+}
+
+span#burguer:hover {
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+}
 nav {
     padding: 10px;
+    display: none;
 }
 
 nav ul li a {
