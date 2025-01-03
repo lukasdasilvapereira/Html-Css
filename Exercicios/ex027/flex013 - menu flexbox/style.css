@@ -25,6 +25,7 @@ header {
 header > h1 {
     color: white;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
 }
 
 main {
@@ -48,6 +49,7 @@ header > nav > a {
     text-decoration: none;
     margin: 5px;
     border-radius: 5px;
+    text-align: center;
 }
 
 header > nav > a:hover {
