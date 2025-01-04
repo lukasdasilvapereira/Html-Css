@@ -42,6 +42,12 @@ a {
     font-size: 1.2em;
 }
 
+span#menu {
+    transform: translate(0px , -24px);
+    display: block;
+    display: none;
+}
+
 main > section > img {
     width: 100vw;
     height: 100vh;
