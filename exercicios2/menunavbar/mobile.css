@@ -1,5 +1,36 @@
-@media screen and (max-width: 600px){
-    nav > a {
+@media screen and (max-width: 700px) {
+    nav {
+        display: flex; /* Configura o contêiner como flexível */
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: flex-end; /* Alinha os itens à direita */
+        gap: 10px; /* Adiciona espaçamento entre os itens */
+    }
 
+    nav > a {
+        display: none; /* Esconde os itens inicialmente */
+        width: auto; /* Permite que os itens ocupem apenas o espaço necessário */
+        padding: 10px; /* Adiciona espaçamento interno */
+        text-align: right; /* Alinha o texto à direita */
+    }
+
+    span#menu {
+        display: block;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    span#menu:hover {
+        background-color: white;
+        color: black;
+        transition: .5s;
+    }
+
+    header > h1 {
+        display: flex;
+        justify-content: flex-start;
+        transform: translate(10px, 25px);
     }
 }

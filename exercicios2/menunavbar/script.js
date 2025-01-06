@@ -1,11 +1,18 @@
-
 function clicar() {
-    let menu = document.getElementById('menu')
-    let itens = document.getElementById('itens')
-    
-    if(menu.style.display == 'none') {
-        itens.style.display = 'block'
+    const itens = document.querySelectorAll('nav > a'); // Seleciona todos os links dentro de 'nav'
+
+    // Verifica se o primeiro item está oculto ou visível
+    const isHidden = itens[0].style.display === 'none' || itens[0].style.display === '';
+
+    if (isHidden) {
+        // Exibe os itens de menu abaixo do ícone
+        itens.forEach(item => {
+            item.style.display = 'block'; // Torna os itens visíveis
+        });
     } else {
-        itens.style.display = 'none'
+        // Esconde os itens novamente
+        itens.forEach(item => {
+            item.style.display = 'none'; // Torna os itens invisíveis
+        });
     }
 }

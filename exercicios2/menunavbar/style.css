@@ -25,7 +25,7 @@ header , nav {
 
 header > h1 {
     font-size: 2em;
-    transform: translate(40px, 20px);
+    transform: translate(40px, 27px);
 }
 
 nav {
@@ -40,6 +40,13 @@ a {
     transform: translate(-40px, -33px);
     margin: 5px;
     font-size: 1.2em;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 
 span#menu {
