@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Figtree", serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 245, 89);
+}
+
+section > div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px; 
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.945);
+    line-height: 1.5em;
+}
+
+img#greg {
+    width: 50px;
+}
