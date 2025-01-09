@@ -22,14 +22,45 @@ main {
     border-radius: 10px;
 }
 
+h1 {
+    font-family: "Over the Rainbow", cursive;
+    color: #986e62;
+}
+
+p, span {
+    font-family: "Outfit", serif;
+    font-weight: normal;
+}
+
 section > img {
     width: 100%;
 }
 
 h2 {
-      font-family: "Young Serif", serif;
+    font-family: "Young Serif", serif;
     color: #986e62;
-    padding: 15px;
+    padding: 8px;
+}
+
+hr {
+    margin: 10px;
+}
+
+ul li::marker {
+    color: #986e62;
+}
+
+ol li::marker {
+    color: brown;
+    font-weight: bold;
+}
+
+ul#ingred {
+    padding-left: 15px;
+}
+
+ol#instru {
+    padding-left: 15px;
 }
 
 #prp {
@@ -38,15 +69,21 @@ h2 {
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
+    gap: 10px;
 }
 
 #prp > h2 {
     font-size: 1.3em;
     font-family: "Outfit", serif;
+    color: purple;
 }
 
 #prp > ul > li{
     font-size: 1em;
     transform: translate(15px, 0px);
+}
+
+#prp > ul > li::marker {
+    color: purple;
 }
 
