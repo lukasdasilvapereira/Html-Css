@@ -9,17 +9,24 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #ffd99a;
+    overflow-x: hidden;
+    padding-bottom: 20px;
 }
 
 main {
+    display: flex;
+    flex-flow: column wrap;
     background-color: white;
-    width: 750px;
+    width: 620px;
     height: auto;
     line-height: 2.5em;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
     border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 h1 {
@@ -27,12 +34,13 @@ h1 {
     color: #986e62;
 }
 
-p, span {
+p,
+span {
     font-family: "Outfit", serif;
     font-weight: normal;
 }
 
-section > img {
+section>img {
     width: 100%;
 }
 
@@ -56,11 +64,11 @@ ol li::marker {
 }
 
 ul#ingred {
-    padding-left: 15px;
+    padding-left: 18px;
 }
 
 ol#instru {
-    padding-left: 15px;
+    padding-left: 18px;
 }
 
 #prp {
@@ -72,18 +80,39 @@ ol#instru {
     gap: 10px;
 }
 
-#prp > h2 {
+#prp>h2 {
     font-size: 1.3em;
     font-family: "Outfit", serif;
     color: purple;
 }
 
-#prp > ul > li{
+#prp>ul>li {
     font-size: 1em;
     transform: translate(15px, 0px);
 }
 
-#prp > ul > li::marker {
+#prp>ul>li::marker {
     color: purple;
 }
 
+div#itens {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* ou flex-end para os preços */
+    align-items: center;
+    /* Garante alinhamento vertical consistente */
+}
+
+span#num {
+    display: flex;
+    flex-flow: row wrap;
+    color: brown;
+    font-weight: bold;
+}
+
+span#it {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
