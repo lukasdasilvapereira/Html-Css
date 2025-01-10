@@ -9,14 +9,34 @@ body {
     width: 100vw;
     height: 100vh;
     font-size: 1em;
+    overflow: hidden;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    width: 700px;
     height: auto;
+    margin: 0 auto;
+    line-height: 2.0em;
+    border-radius: 17px;
+    margin-top: 200px;
+    display: flex;
 }
 
-img.imagem1 {
-    width: 250px;
+div.content {
+    display: flex;
+}
+
+.imagem1 {
+   width: 70%;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 30px;
+    transform: translate(-70px, 30px);
 }
