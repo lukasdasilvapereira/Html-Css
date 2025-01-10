@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3ebe4;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1em;
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    height: auto;
+}
+
+img.imagem1 {
+    width: 250px;
+}
