@@ -14,7 +14,7 @@ body {
 
 main {
     background-color: white;
-    width: 700px;
+    width: 750px;
     height: auto;
     margin: 0 auto;
     line-height: 2.0em;
@@ -34,9 +34,19 @@ div.content {
 }
 
 div.info {
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 55%;
     padding: 30px;
     transform: translate(-70px, 30px);
+    gap: 15px;
+}
+
+.perf {
+    font-size: 1.1em;
+    color: grey;
+    margin-top: -40px;
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
