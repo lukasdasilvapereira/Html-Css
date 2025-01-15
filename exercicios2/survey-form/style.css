@@ -18,27 +18,31 @@ body {
 }
 
 header {
-    text-align: center;
-    margin: 10px;
-    background-color: grey;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(128, 128, 128, 0.849);
     color: white;
+    padding: 30px;
+}
+
+header h1 {
+    text-align: center;
 }
 
 main {
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(128, 128, 128, 0.842);
   width: 75%;
   margin: 20px auto;
-  height: 950px;
-  line-height: 1.4em;
+  height: 980px;
+  line-height: 1.1em;
   padding: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 }
 
 form {
     margin-bottom: 15px;
 }
-
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -85,7 +89,7 @@ textarea {
 }
 
 button {
-  background-color: lightblue;
+  background-color: black;
   margin-top: 10px;
   color: white;
   width: 100%;
@@ -98,6 +102,16 @@ button {
 }
 
 button:hover {
-    background-color: darkblue;
+    background-color: white;
+    color: black;
     transition: .5s;
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select, textarea, option {
+    font-weight: bold;
 }

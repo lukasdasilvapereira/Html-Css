@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
     <header>
@@ -13,9 +14,9 @@
     </header>
     <main>
         <form action="cadastro.php" method="post" id="survey-form">
-            <p><label for="name" id="name-label">Name<input type="text" id="name" required placeholder="Enter your name"></label></p>
-            <p><label for="email" id="email-label">E-mail<input type="email" id="email" required placeholder="Enter your Email"></label></p>
-            <p><label for="age" id="age-label">Age<input type="number" id="age" required placeholder="Age" min="12" max="100"></label></p>
+            <p><label for="name" id="name-label"><span class="dist">Name</span><input type="text" id="name" required placeholder="Enter your name"></label></p>
+            <p><label for="email" id="email-label"><span class="dist">E-mail</span><input type="email" id="email" required placeholder="Enter your Email"></label></p>
+            <p><label for="age" id="age-label" class="dist"><span class="dist">Age</span><input type="number" id="age" required placeholder="Age" min="12" max="100"></label></p>
             <select name="dropdown" id="dropdown">
                 <option value="">Select an Option</option>
                 <option value="frontend">Front-End</option>
@@ -24,13 +25,13 @@
                 <option value="other">Other</option>
             </select>
 
-            <p><label for="recomend">Would you recommend this survey to your friends?</label></p>
+            <p><label for="recomend"> <span>1) Would you recommend this survey to your friends?</span></label></p>
             <p><label for="yes" name="rr"><input type="radio" name="recomend" id="yes" value="yes" checked></label>Yes</p>
             <p><label for="yes" name="rr"><input type="radio" name="recomend" id="no" value="no"></label>No</p>
             <p><label for="maybe" name="rr"><input type="radio" name="recomend" id="maybe" value="maybe"></label>Maybe</p>
 
 
-            <p><label for="suggests">What would you like to see improved</label></p>
+            <p><label for="suggests"><span>2) What would you like to see improved</span></label></p>
             <p><label for="suggests"><input type="checkbox" name="suggests" id="suggests">Vídeos</label></p>
             <p><label for="suggests"><input type="checkbox" name="suggests" id="suggests">Front-End Projects</label></p>
             <p><label for="suggests"><input type="checkbox" name="suggests" id="suggests">Back-end Projects</label></p>
@@ -38,7 +39,7 @@
             <p><label for="suggests"><input type="checkbox" name="suggests" id="suggests">Other</label></p>
             <textarea name="suggests" id="suggests" placeholder="If you choose other , tell us what it is"></textarea>
 
-            <p><label for="comments">Tell us about you</label></p>
+            <p><label for="comments"><span>3) Tell us about you</span></label></p>
             <textarea name="comments" id="comments" placeholder="I like to code at home.."></textarea>
         </form>
         <button type="submit" form="survey-form">Submit</button>
