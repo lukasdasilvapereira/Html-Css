@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>Contact Us</h1>
+        <form action="index2.html" method="post">
+            <div id="names">
+                <p>
+                    <label for="firstname" id="frst-label" name="first">First Name*
+                        <input type="text" id="firstname" name="first" required>
+                    </label>
+
+                    <label for="lastname" id="lst">Last Name*</label>
+                    <input type="text" id="lastname" required>
+                </p>
+
+            </div>
+            <div id="email-container">
+                <label for="email" id="email-label" name="email"><span>Email Address *</span>
+                    <input type="email" id="email" name="email" required>
+            </div>
+
+            <label for="">Query Type*</label> <br> <br>
+            <div id="radio">
+                <label for="querytype" id="gnr">
+                    <input type="radio" name="bt" id="gnr">
+                    General Enquiry
+                </label>
+                <label for="querytype" id="prq">
+                    <input type="radio" name="bt" id="prq">
+                    Support Request
+                </label>
+            </div>
+
+            <p><span>Message *</span><textarea name="msg" id="msg"></textarea></p>
+            <p><label for="area"><input type="checkbox" name="area" id="check">I consent to being contacted by the team*</label></p>
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </main>
+</body>
+
+</html>
