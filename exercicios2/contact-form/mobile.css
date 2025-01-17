@@ -1,0 +1,13 @@
+@media screen and (max-width: 900px) {
+    main {
+        width: 500px;
+        margin: 0 auto;
+        height: 699px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+}

@@ -19,22 +19,16 @@ body {
 main {
     background-color: white;
     width: 900px;
-    height: 800px;
+    height: 600px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    transform: translate(0px, 60px);
-}
-
-div#names {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    transform: translate(0px, 90px);
 }
 
 
 input[type="email"] {
-    width: 50%;
+    width: 100%;
     height: 100%;
     padding: 10px;
     margin: 30px 0px;
@@ -74,7 +68,7 @@ input[type="submit"] {
     color: white;
     border: none;
     cursor: pointer;
-    margin-top: 170px;
+    margin-top: 20px;
 }
 
 input[type="submit"]:hover {
@@ -83,7 +77,12 @@ input[type="submit"]:hover {
 }
 
 input[type="text"] {
-    display: inline-block;
-    width: 100%;
+    width: 30%;
+    height: 30%;
     padding: 10px;
+    margin-right: 10px;
+}
+
+.check {
+    transform: translate(20px, -20px);
 }
