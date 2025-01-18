@@ -9,12 +9,12 @@ body {
     height: 100vh;
     font-size: 1em;
     overflow-x: hidden;
+    background-color: lightgray;
 }
 
 #main {
     width: 100%;
     height: 100%;
-    background-color: lightgray;
 }
 
 #title {
@@ -44,14 +44,61 @@ body {
     font-size: 1.5em;
     margin-top: 10px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 #tribute-info {
-    font-size: 1.2em;
-    margin-top: 10px;
+    margin: 20px;
+    font-size: 1em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: dashed;
 }
+
+#test {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin: 10px;
+    list-style: none;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#tribute-link {
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#link {
+    color: blue;
+    text-decoration: none;
+}
+
+#link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
 
