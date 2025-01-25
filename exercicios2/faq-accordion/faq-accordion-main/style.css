@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Work sans", "Helvetica Neue";
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 182, 193, 0.349);
+    overflow-x: hidden;
+}
+
+.img1 {
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: white;
+    width: 600px;
+    height: 480px;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 22px;
+}
+
+header {
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+.desc1, .desc2, .desc3, .desc4 {
+    display: flex; /* Transformar o container em flexbox */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Espaço entre o título e o botão */
+    margin-bottom: 15px; /* Espaçamento entre os blocos */
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+   transform: translate(0px, -28px);
+}
