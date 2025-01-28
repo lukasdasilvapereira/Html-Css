@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+#img1 {
+    width: 50%;
+    float: left;
+    margin: 20px;
+}
+
+#container1 {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#login1 {
+    list-style: none;
+    display: flex;
+}
+
+h1 {
+    font-size: 3em;
+    display: flex;
+}
+
+.img2 {
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    left: 50%;
+}
+
+.imagens {
+    margin: 0px 28px;
+}
+
+p {
+    font-size: 1.2em;
+    transform: translate(5px, 320px);
+}
