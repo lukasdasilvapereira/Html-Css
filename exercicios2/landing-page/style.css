@@ -25,11 +25,39 @@ body {
     transform: translate(150px, -61px);
     font-family: "Heebo";
     cursor: pointer;
+    color: grey;
+}
+
+
+#menu {
+    display: none;
+}
+.cm:hover {
+    color: black;
+}
+
+.ft:hover {
+    color: black;
+}
+
+.abt:hover {
+    color: black;
+}
+
+.rg {
+    display: block;
+    padding: 10px;
+    transform: translate(0px, -9px);
 }
 
 .rg:hover {
     border: 2px solid grey;
     border-radius: 10px;
+    color: black;
+}
+
+.lg:hover {
+    color: black;
 }
 
 #login1 {
@@ -37,9 +65,10 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    transform: translate(-35px, -83px);
+    transform: translate(-35px, -79px);
     font-family: "Heebo";
     cursor: pointer;
+    color: grey;
 }
 
 h1 {
@@ -63,7 +92,7 @@ p {
     position: relative;
     left: 55%;
     margin: -30px;
-    transform: translate(0px, -110px);
+    transform: translate(0px, -120px);
 }
 
 .imagens {
@@ -86,4 +115,8 @@ button:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+.img3 {
+    display: none;
 }

@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@100..900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="mobile.css">
 </head>
 
 <body>
@@ -20,11 +21,15 @@
             <div id="img1"><img src="images/logo.svg" alt="logo"></div>
             <div id="container">
                 <ul id="container1">
-                    <li onclick="list()">Features <img src="images/icon-arrow-down.svg" alt=""></li>
-                    <li onclick="click()">Company <img src="images/icon-arrow-down.svg" alt=""></li>
+                    <li onclick="list()" class="ft">Features <img src="images/icon-arrow-down.svg" alt=""></li>
+                    <li onclick="click()" class="cm">Company <img src="images/icon-arrow-down.svg" alt=""></li>
                     <li>Carrers</li>
-                    <li>About</li>
+                    <li class="abt">About</li>
                 </ul>
+            </div>
+
+            <div id="menu">
+                <img src="images/icon-menu.svg" alt="menu">
             </div>
 
             <div id="active-features" style="display: none;">
@@ -66,6 +71,10 @@
 
         <div class="img2">
             <img src="images/image-hero-desktop.png" alt="imagem" class="img2">
+        </div>
+
+        <div class="img3">
+            <img src="images/image-hero-mobile.png" alt="imagem" class="img3">
         </div>
 
         <div id="imagens">
