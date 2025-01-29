@@ -29,7 +29,7 @@
         display: block;
         width: 450px;
         margin: auto;
-        transform: translate(0px, -100px);
+        transform: translate(0px, -150px);
     }
 
     #container1 {
@@ -49,7 +49,7 @@
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     h1 , p , button{
@@ -57,18 +57,32 @@
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.5em;
+        color: grey;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .imagens {
-        transform: translate(100px, 90px);
+        transform: translate(70px, 90px);
     }
 
     button {
-       padding: 5px 15px;
-       margin: auto;
+       padding: 10px 15px;
        display: flex;
-       border-radius: 15px;
+       margin: auto;
+       margin-bottom: 10px;
+       border-radius: 10px;
     }
 
+    .btn {
+        transform: translate(-30px, 410px);
+    }
+
+    
+    @media screen and (max-width: 500px) {
+        p {
+            font-size: 1em;
+        }
+    }
 }

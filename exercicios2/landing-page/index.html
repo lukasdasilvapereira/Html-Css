@@ -21,10 +21,18 @@
             <div id="img1"><img src="images/logo.svg" alt="logo"></div>
             <div id="container">
                 <ul id="container1">
-                    <li onclick="list()" class="ft">Features <img src="images/icon-arrow-down.svg" alt=""></li>
-                    <li onclick="click()" class="cm">Company <img src="images/icon-arrow-down.svg" alt=""></li>
-                    <li>Carrers</li>
-                    <li class="abt">About</li>
+                    <a href="#">
+                        <li onclick="list()" class="ft">Features <img src="images/icon-arrow-down.svg" alt=""></li>
+                    </a>
+                    <a href="#">
+                        <li onclick="click()" class="cm">Company <img src="images/icon-arrow-down.svg" alt=""></li>
+                    </a>
+                    <a href="#">
+                        <li>Carrers</li>
+                    </a>
+                    <a href="#">
+                        <li class="abt">About</li>
+                    </a>
                 </ul>
             </div>
 
@@ -32,7 +40,7 @@
                 <img src="images/icon-menu.svg" alt="menu">
             </div>
 
-            <div id="active-features" style="display: none;">
+            <div id="active-features">
                 <ul>
                     <li><img src="images/icon-todo.svg" alt="To do list">Todo List</li>
                     <li><img src="images/icon-calendar.svg" alt="To do list">Todo List</li>
@@ -51,8 +59,12 @@
 
             <div id="login">
                 <ul id="login1">
-                    <li class="lg">Login</li>
-                    <li class="rg">Register</li>
+                    <a href="#">
+                        <li class="lg">Login</li>
+                    </a>
+                    <a href="#">
+                        <li class="rg">Register</li>
+                    </a>
                 </ul>
             </div>
         </nav>
@@ -67,7 +79,7 @@
             watch productivity soar.
         </p>
 
-        <button>Learn more</button>
+        <button class="btn">Learn more</button>
 
         <div class="img2">
             <img src="images/image-hero-desktop.png" alt="imagem" class="img2">
@@ -84,6 +96,8 @@
             <img src="images/client-maker.svg" alt="maker" class="imagens">
         </div>
     </main>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
