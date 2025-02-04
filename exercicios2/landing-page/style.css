@@ -29,11 +29,23 @@ body {
 
 #active-features {
     display: none;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.178);
+    width: 100px;
+    transform: translate(50px, 10px);
+    list-style: none;
+    padding: 10px;
+   margin: 10px;
 }
 
 a {
     text-decoration: none;
     color: grey;
+}
+
+ul {
+    list-style: none;
 }
 
 
