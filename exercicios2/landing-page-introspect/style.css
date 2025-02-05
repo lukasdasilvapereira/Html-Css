@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Awesome", "Helvetica Neue";
+    src: url(introspect/assets/fonts/fontawesome-webfont.eot);
+}
+
+body {
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-family: "Awesome", sans-serif;
+    color: red;
+    font-size: 1.4em;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.884);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row wrap;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    transform: translate(0px, 27px);
+    transition: 0.5s ease;
+}
+
+.fa-solid {
+    display: none;
+}
+
+.nav ul a:hover {
+    color: grey;
+}
+
+h1:hover {
+    color: rgba(255, 0, 0, 0.418);
+}
+
+.container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.container h2 {
+    padding: 40px;
+    margin: 10px auto;
+    font-size: 2em;
+}
+
+.container button {
+    max-width: 380px;
+    max-height: 50px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 10px auto;
+    transform: translate(-500px, 100px);
+}
+
+.container button:hover {
+    background-color: grey;
+}
