@@ -265,3 +265,25 @@ a {
     white-space: nowrap;
     transform: translate(250px, -30px);
 }
+
+form {
+    background-color: rgba(255, 0, 0, 0.699);
+    color: white;
+    padding: 200px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    transform: translate(0px, -70px);
+    font-size: 3em;
+}
+
+input[type = "text"], input[type = "email"] {
+    font-size: 1.8em;
+    margin-top: 10px;
+    border: 2px solid grey;
+    background-color: transparent;
+    gap: 20px;
+}
