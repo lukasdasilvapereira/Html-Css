@@ -101,6 +101,7 @@ a {
     flex-direction: column;
     gap: 40px;
     margin: 20px;
+    padding: 30px;
 }
 
 .container2 h3 {
@@ -199,7 +200,18 @@ a {
 .fa-laptop, .fa-diamond {
     font-size: 2.5em;
     color: grey;
-    transform: translate(200px, -80px);
+}
+
+#lap {
+    transform: translate(310px, -100px);
+}
+
+.fa-diamond {
+    transform: translate(140px, -100px);
+}
+
+#lapo {
+    transform: translate(140px, -100px);
 }
 
 .container4 p {
@@ -212,18 +224,44 @@ a {
     display: block;
     color: red;
     font-size: 1.3em;
-    border: 2px solid black;
 }
 
 .container4 button {
-    width: 300px;
+    width: 380px;
+    height: 60px;
+    background-color: white;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border: 2px solid red;
+    white-space: nowrap;
+}
+
+.container4 button:hover {
+    background-color: rgba(255, 0, 0, 0.486);
+    color: white;
+}
+
+.bt1{
+    transform: translate(-220px, 280px);
+}
+
+.bt2 {
+    transform: translate(-200px, 280px);
+}
+
+.bt3 {
+    transform: translate(-200px, 280px);
 }
 
 .tmp {
-    transform: translate(130px, 0px);
+    transform: translate(210px, -30px);
     white-space: nowrap;
 }
 
 .al {
     white-space: nowrap;
+    transform: translate(250px, -30px);
 }
