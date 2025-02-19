@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #444;
+    padding: 120px;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header hr {
+    width: 40%;
+    margin: 0px auto 20px;
+}
+
+header p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Lora";
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    border-bottom: dotted 1px;
+    transition: 0.5s color;
+}
+
+header a:hover {
+    border-bottom-color: transparent;
+    color: red;
+}
