@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+   background-color: #f4f4f4;
+}
 header {
     background-color: #444;
     padding: 120px;
@@ -38,4 +42,85 @@ header a {
 header a:hover {
     border-bottom-color: transparent;
     color: red;
+}
+
+#diamante {
+    background-color: white;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+#diamante h2 {
+    font-size: 3em;
+    font-family: "Playfair Display", serif;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+#diamante p {
+    font-family: "Lora";
+    font-size: 1.3em;
+    color: rgba(128, 128, 128, 0.699);
+}
+
+#diamante button {
+    background-color: transparent;
+    font-size: 1em;
+    font-family: "Lora";
+    width: 280px;
+    height: 70px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#diamante i {
+    font-size: 2.5em;
+    color: grey;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#diamante button:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+main p{
+    font-family: "Lora";
+    background-color: white;
+    width: 700px;
+    height: 250px;
+    padding: 10px;
+}
+
+main img {
+   width: 700px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   transform: translate(0px, 3px);
+}
+
+main > p {
+    font-size: 1.3em;
+}
+
+#btnm {
+    height: 50px;
 }
