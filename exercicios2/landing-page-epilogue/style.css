@@ -86,7 +86,7 @@ header a:hover {
     color: grey;
     border: 1px solid black;
     border-radius: 50%;
-    padding: 15px;
+    padding: 25px;
 }
 
 #diamante button:hover {
@@ -99,15 +99,19 @@ main {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2, 1fr); 
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 180px;
 }
 
 main p{
     font-family: "Lora";
     background-color: white;
     width: 700px;
-    height: 250px;
-    padding: 10px;
+    height: 350px;
+    padding: 30px;
+    text-align: center;
+    color: grey;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 main img {
@@ -115,12 +119,30 @@ main img {
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
    transform: translate(0px, 3px);
+   cursor: pointer;
+   transition: 0.2 ease;
 }
 
 main > p {
-    font-size: 1.3em;
+    transform: translate(0px, 250px);
 }
 
-#btnm {
+main h2 {
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.btnm {
+    width: 100px;
     height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btnm:hover {
+    color: red;
+    border: 1px solid red;
 }
