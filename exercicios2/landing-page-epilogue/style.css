@@ -163,7 +163,7 @@ main h2 {
 #container h2 {
     font-size: 2.5em;
     font-family: "Playfair Display", serif;
-    color: rgba(0, 0, 0, 0.568);
+    color: rgba(0, 0, 0, 0.699);
 }
 
 #container p {
@@ -201,11 +201,14 @@ main h2 {
     justify-content: center;
     gap: 10px;
     margin: auto;
-    font-size: 1em;
+    font-size: 1.4em;
     transition: 0.5s;
+    color: grey;
+    cursor:pointer;
+    transform: translate(0px, 70px);
 }
 
-#brands:hover {
+i:hover {
     color: red;
 }
 
@@ -213,7 +216,7 @@ footer p {
     display: flex;
     justify-content: center;
     font-family: "Lora";
-    transform: translate(0px, 80px);
+    transform: translate(0px, 120px);
     font-size: 1.2em;
     margin: 20px;
 }
