@@ -60,6 +60,10 @@ button {
     background: none;
 }
 
+header #menu, #menu-open {
+    display: none;
+}
+
 img {
     width: 100%;
 }
@@ -191,12 +195,82 @@ header .navbar {
     gap: 50px;
 }
 
+.about-section .about-details {
+    max-width: 50%;
+}
+
 .about-section .section .about-image .img3 {
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
+    margin-top: 59px;
 }
+
+.about-section .section .about-title {
+    padding: 0;
+}
+
+.about-section .section .about-descricao {
+    line-height: 30px;
+    margin: -40px 0 30px;
+    text-align: center;
+    font-size: var(--font-size-m);
+}
+
+.about-section .section .links-brands {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.about-section .section .social-link {
+    color: var(--primary-color);
+    font-size: var(--font-size-l);
+    transition: 0.3s ease;
+}
+
+.about-section .section .social-link:hover {
+    color: var(--secondary-color);
+}
+
+/* MENU SECTION */
+
+.menu-section {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.menu-section .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+    justify-content: center;
+}
+
+.menu-section .menu-list .menu-item .menu-image {
+    max-width: 83%;
+    aspect-ratio: 1;
+}
+
+.menu-section .menu-list .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 110px);
+    justify-content: space-between;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-section .menu-list .menu-item {
+        width: calc(100% / 3 - 60px);
+    }
+}
+
+
+
 @media screen and (max-width: 900px) {
 
             .navbar :where(#menu , #menu-open) {
@@ -270,10 +344,21 @@ header .navbar {
         margin-right: 0;
      }
 
-     .hero-content .hero-details :is(.sub, .descricao) {
+     .hero-content .hero-details :is(.sub, .descricao), .about-details .about-section {
         max-width: 100%;
      }
 
      .hero-content .hero-details .buttons {
         justify-content: center;
+     }
+
+     .about-section .section {
+        flex-direction: column;
+     }
+
+     .about-section .section .about-image .img3 {
+        width: 100%;
+        height: 100%;
+        max-width: 250px;
+        aspect-ratio: 1;
      }
