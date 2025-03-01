@@ -6,8 +6,9 @@ function sair() {
     document.body.classList.remove("show-mobile-menu");
 }
 
-const swiper = new Swiper('.slider-teste ', {
+const swiper = new Swiper('.slider-teste', {
     loop: true,
+    grabCursor: true,
     spaceBetween: 25,
   
     // If we need pagination
